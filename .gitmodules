@@ -1,6 +1,6 @@
 [submodule "neorv32"]
 	path = neorv32
-	url = https://github.com/stnolting/neorv32
+	url = https://github.com/mattcapons/neorv32.git
 	ignore = dirty
 	branch = main
 [submodule "constraints"]
