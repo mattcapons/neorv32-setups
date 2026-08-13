@@ -2,7 +2,7 @@
 	path = neorv32
 	url = https://github.com/mattcapons/neorv32.git
 	ignore = dirty
-	branch = main
+	branch = dhwa-project
 [submodule "constraints"]
 	path = constraints
 	url = https://github.com/hdl/constraints
