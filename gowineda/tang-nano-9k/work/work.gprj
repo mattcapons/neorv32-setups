@@ -1,0 +1,77 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
+    <FileList>
+        <File path="src/acc_mem_unit.vhd" type="file.vhdl" enable="1" library="accelerator"/>
+        <File path="src/acc_top.vhd" type="file.vhdl" enable="1" library="accelerator"/>
+        <File path="src/input_buffer.vhd" type="file.vhdl" enable="1" library="accelerator"/>
+        <File path="src/neorv32_bootrom.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_bootrom_image.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_bootrom_rom.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_bus.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cache.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cache_ram.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cfs.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_clint.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_alu.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_alu_bitmanip.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_alu_cfu.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_alu_cond.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_alu_crypto.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_alu_fpu.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_alu_muldiv.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_alu_shifter.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_control.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_counters.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_decompressor.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_frontend.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_hwtrig.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_lsu.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_pmp.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_regfile.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_cpu_trace.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_debug_auth.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_debug_dm.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_debug_dtm.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_dma.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_dmem.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_dmem_ram.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_gpio.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_gptmr.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_imem.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_imem_image.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_imem_ram.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_imem_rom.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_neoled.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_onewire.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_package.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_prim.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_pwm.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_sdi.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_slink.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_smc.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_spi.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_sys.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_sysinfo.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_test_setup_bootloader.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/neorv32_top.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_tracer.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_trng.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_twd.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_twi.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_uart.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_wdt.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/neorv32_xbus.vhd" type="file.vhdl" enable="1" library="neorv32"/>
+        <File path="src/output_buffer.vhd" type="file.vhdl" enable="1" library="accelerator"/>
+        <File path="src/systolic_array.vhd" type="file.vhdl" enable="1" library="accelerator"/>
+        <File path="src/systolic_controller.vhd" type="file.vhdl" enable="1" library="accelerator"/>
+        <File path="src/systolic_engine.vhd" type="file.vhdl" enable="1" library="accelerator"/>
+        <File path="src/systolic_pe.vhd" type="file.vhdl" enable="1" library="accelerator"/>
+        <File path="src/systolic_pkg.vhd" type="file.vhdl" enable="1" library="accelerator"/>
+        <File path="src/tang-nano-9k_test_setup_bootloader.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>

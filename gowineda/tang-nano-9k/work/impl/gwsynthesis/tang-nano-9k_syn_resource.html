@@ -1,0 +1,706 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Hierarchy Module Resource</title>
+<style type="text/css">
+body { font-family: Verdana, Arial, sans-serif; font-size: 14px; }
+div#main_wrapper{ width: 100%; }
+h1 {text-align: center; }
+h1 {margin-top: 36px; }
+table, th, td { border: 1px solid #aaa; }
+table { border-collapse:collapse; margin-top: 10px; margin-bottom: 20px; width: 100%; }
+th, td { align = "center"; padding: 5px 2px 5px 5px; }
+th { color: #fff; font-weight: bold; background-color: #0084ff; }
+table td.label { width: 20%; white-space: nowrap; min-width: 20px; background-color: #dee8f4; }
+</style>
+</head>
+<body>
+<div id="main_wrapper">
+<div id="content">
+<h1>Hierarchy Module Resource</h1>
+<table>
+<tr>
+<th class="label">MODULE NAME</th>
+<th class="label">REG NUMBER</th>
+<th class="label">ALU NUMBER</th>
+<th class="label">LUT NUMBER</th>
+<th class="label">DSP NUMBER</th>
+<th class="label">BSRAM NUMBER</th>
+<th class="label">SSRAM NUMBER</th>
+<th class="label">ROM16 NUMBER</th>
+</tr>
+<tr>
+<td class="label">neorv32_test_setup_bootloader (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_test_setup_bootloader.vhd)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--neorv32_top_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_test_setup_bootloader.vhd)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--soc_generators.neorv32_sys_reset_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd)</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--soc_generators.neorv32_sys_clock_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd)</td>
+<td align = "center">20</td>
+<td align = "center">11</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--core_complex_gen[0].neorv32_cpu_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">380</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--neorv32_cpu_frontend_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu.vhd)</td>
+<td align = "center">35</td>
+<td align = "center">-</td>
+<td align = "center">305</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--prefetch_buffer[0].ipb_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_frontend.vhd)</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+<td align = "center">6</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--prefetch_buffer[1].ipb_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_frontend.vhd)</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+<td align = "center">6</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--issue_enabled.neorv32_cpu_decompressor_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_frontend.vhd)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">20</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--neorv32_cpu_control_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu.vhd)</td>
+<td align = "center">428</td>
+<td align = "center">-</td>
+<td align = "center">859</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--cnts_enabled.neorv32_cpu_counters_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu.vhd)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--base_enabled.cycle_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_counters.vhd)</td>
+<td align = "center">66</td>
+<td align = "center">-</td>
+<td align = "center">144</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--base_enabled.instret_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_counters.vhd)</td>
+<td align = "center">66</td>
+<td align = "center">-</td>
+<td align = "center">147</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--neorv32_cpu_regfile_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu.vhd)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">9</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--neorv32_cpu_alu_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu.vhd)</td>
+<td align = "center">-</td>
+<td align = "center">97</td>
+<td align = "center">66</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--neorv32_cpu_alu_shifter_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_alu.vhd)</td>
+<td align = "center">39</td>
+<td align = "center">-</td>
+<td align = "center">81</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--neorv32_cpu_alu_muldiv_enabled.neorv32_cpu_alu_muldiv_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_alu.vhd)</td>
+<td align = "center">169</td>
+<td align = "center">65</td>
+<td align = "center">262</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--neorv32_cpu_lsu_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu.vhd)</td>
+<td align = "center">102</td>
+<td align = "center">-</td>
+<td align = "center">103</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--core_complex_gen[0].neorv32_core_bus_switch_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd)</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">32</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--neorv32_bus_gateway_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd)</td>
+<td align = "center">10</td>
+<td align = "center">-</td>
+<td align = "center">106</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--memory_system.neorv32_imem_enabled.neorv32_imem_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--imem_rom.imem_rom_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_imem.vhd)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">8</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--memory_system.neorv32_dmem_enabled.neorv32_dmem_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">6</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--dmem_ram_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_dmem.vhd)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--ram_gen[0].ram_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_dmem_ram.vhd)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--ram_gen[1].ram_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_dmem_ram.vhd)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--ram_gen[2].ram_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_dmem_ram.vhd)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--ram_gen[3].ram_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_dmem_ram.vhd)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--io_system.neorv32_bus_io_switch_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">69</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--neorv32_bus_reg_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_bus.vhd)</td>
+<td align = "center">87</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--io_system.neorv32_cfs_enabled.neorv32_cfs_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd)</td>
+<td align = "center">97</td>
+<td align = "center">-</td>
+<td align = "center">71</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--io_system.neorv32_gpio_enabled.neorv32_gpio_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd)</td>
+<td align = "center">43</td>
+<td align = "center">-</td>
+<td align = "center">51</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--io_system.neorv32_clint_enabled.neorv32_clint_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd)</td>
+<td align = "center">34</td>
+<td align = "center">-</td>
+<td align = "center">114</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--neorv32_clint_mtime_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_clint.vhd)</td>
+<td align = "center">65</td>
+<td align = "center">-</td>
+<td align = "center">144</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--neorv32_clint_mtimecmp_gen[0].neorv32_clint_mtimecmp_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_clint.vhd)</td>
+<td align = "center">66</td>
+<td align = "center">126</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--io_system.neorv32_uart0_enabled.neorv32_uart0_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd)</td>
+<td align = "center">101</td>
+<td align = "center">-</td>
+<td align = "center">127</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--tx_fifo_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_uart.vhd)</td>
+<td align = "center">10</td>
+<td align = "center">-</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--rx_fifo_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_uart.vhd)</td>
+<td align = "center">10</td>
+<td align = "center">-</td>
+<td align = "center">6</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--io_system.neorv32_slink_enabled.neorv32_slink_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd)</td>
+<td align = "center">39</td>
+<td align = "center">-</td>
+<td align = "center">40</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--rx_fifo_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_slink.vhd)</td>
+<td align = "center">43</td>
+<td align = "center">4</td>
+<td align = "center">22</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">8</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--tx_fifo_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_slink.vhd)</td>
+<td align = "center">41</td>
+<td align = "center">3</td>
+<td align = "center">14</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">8</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--io_system.neorv32_sysinfo_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd)</td>
+<td align = "center">66</td>
+<td align = "center">-</td>
+<td align = "center">36</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--my_acc_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_test_setup_bootloader.vhd)</td>
+<td align = "center">13</td>
+<td align = "center">35</td>
+<td align = "center">128</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--input_buffer_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/acc_top.vhd)</td>
+<td align = "center">19</td>
+<td align = "center">-</td>
+<td align = "center">32</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--a_mem_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/input_buffer.vhd)</td>
+<td align = "center">9</td>
+<td align = "center">-</td>
+<td align = "center">18</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">8</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--w_mem_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/input_buffer.vhd)</td>
+<td align = "center">9</td>
+<td align = "center">-</td>
+<td align = "center">18</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">8</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--systolic_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/acc_top.vhd)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--array_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_engine.vhd)</td>
+<td align = "center">160</td>
+<td align = "center">-</td>
+<td align = "center">162</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--gen_pe_row[0].gen_pe_col[0].pe_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd)</td>
+<td align = "center">48</td>
+<td align = "center">-</td>
+<td align = "center">48</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--gen_pe_row[0].gen_pe_col[1].pe_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd)</td>
+<td align = "center">48</td>
+<td align = "center">-</td>
+<td align = "center">48</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--gen_pe_row[0].gen_pe_col[2].pe_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd)</td>
+<td align = "center">40</td>
+<td align = "center">-</td>
+<td align = "center">48</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--gen_pe_row[0].gen_pe_col[3].pe_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd)</td>
+<td align = "center">40</td>
+<td align = "center">-</td>
+<td align = "center">40</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--gen_pe_row[1].gen_pe_col[0].pe_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd)</td>
+<td align = "center">48</td>
+<td align = "center">-</td>
+<td align = "center">48</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--gen_pe_row[1].gen_pe_col[1].pe_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd)</td>
+<td align = "center">48</td>
+<td align = "center">-</td>
+<td align = "center">48</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--gen_pe_row[1].gen_pe_col[2].pe_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd)</td>
+<td align = "center">40</td>
+<td align = "center">-</td>
+<td align = "center">48</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--gen_pe_row[1].gen_pe_col[3].pe_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd)</td>
+<td align = "center">40</td>
+<td align = "center">-</td>
+<td align = "center">40</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--gen_pe_row[2].gen_pe_col[0].pe_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd)</td>
+<td align = "center">48</td>
+<td align = "center">-</td>
+<td align = "center">48</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--gen_pe_row[2].gen_pe_col[1].pe_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd)</td>
+<td align = "center">48</td>
+<td align = "center">-</td>
+<td align = "center">48</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--gen_pe_row[2].gen_pe_col[2].pe_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd)</td>
+<td align = "center">48</td>
+<td align = "center">149</td>
+<td align = "center">114</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--gen_pe_row[2].gen_pe_col[3].pe_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd)</td>
+<td align = "center">40</td>
+<td align = "center">149</td>
+<td align = "center">106</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--gen_pe_row[3].gen_pe_col[0].pe_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd)</td>
+<td align = "center">40</td>
+<td align = "center">149</td>
+<td align = "center">106</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--gen_pe_row[3].gen_pe_col[1].pe_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd)</td>
+<td align = "center">40</td>
+<td align = "center">149</td>
+<td align = "center">106</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--gen_pe_row[3].gen_pe_col[2].pe_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd)</td>
+<td align = "center">40</td>
+<td align = "center">149</td>
+<td align = "center">106</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--gen_pe_row[3].gen_pe_col[3].pe_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd)</td>
+<td align = "center">32</td>
+<td align = "center">149</td>
+<td align = "center">98</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--controller_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_engine.vhd)</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">10</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--output_buffer_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/acc_top.vhd)</td>
+<td align = "center">546</td>
+<td align = "center">512</td>
+<td align = "center">938</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--even_mem_inst
+ (/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/output_buffer.vhd)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+</tr>
+</table>
+</div><!-- content -->
+</div><!-- main_wrapper -->
+</body>
+</html>

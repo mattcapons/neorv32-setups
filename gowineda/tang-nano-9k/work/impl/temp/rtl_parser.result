@@ -1,0 +1,582 @@
+[
+ {
+  "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_test_setup_bootloader.vhd",
+  "InstLine" : 21,
+  "InstName" : "neorv32_test_setup_bootloader",
+  "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_test_setup_bootloader.vhd",
+  "ModuleLine" : 21,
+  "ModuleName" : "neorv32_test_setup_bootloader",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_test_setup_bootloader.vhd",
+    "InstLine" : 84,
+    "InstName" : "neorv32_top_inst",
+    "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd",
+    "ModuleLine" : 21,
+    "ModuleName" : "neorv32_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd",
+      "InstLine" : 496,
+      "InstName" : "soc_generators.neorv32_sys_reset_inst",
+      "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_sys.vhd",
+      "ModuleLine" : 17,
+      "ModuleName" : "neorv32_sys_reset"
+     },
+     {
+      "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd",
+      "InstLine" : 509,
+      "InstName" : "soc_generators.neorv32_sys_clock_inst",
+      "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_sys.vhd",
+      "ModuleLine" : 97,
+      "ModuleName" : "neorv32_sys_clock"
+     },
+     {
+      "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd",
+      "InstLine" : 547,
+      "InstName" : "core_complex_gen[0].neorv32_cpu_inst",
+      "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu.vhd",
+      "ModuleLine" : 21,
+      "ModuleName" : "neorv32_cpu",
+      "SubInsts" : [
+       {
+        "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu.vhd",
+        "InstLine" : 224,
+        "InstName" : "neorv32_cpu_frontend_inst",
+        "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_frontend.vhd",
+        "ModuleLine" : 22,
+        "ModuleName" : "neorv32_cpu_frontend",
+        "SubInsts" : [
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_frontend.vhd",
+          "InstLine" : 177,
+          "InstName" : "prefetch_buffer[0].ipb_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_frontend.vhd",
+          "ModuleLine" : 322,
+          "ModuleName" : "neorv32_cpu_frontend_ipb"
+         },
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_frontend.vhd",
+          "InstLine" : 177,
+          "InstName" : "prefetch_buffer[1].ipb_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_frontend.vhd",
+          "ModuleLine" : 322,
+          "ModuleName" : "neorv32_cpu_frontend_ipb"
+         },
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_frontend.vhd",
+          "InstLine" : 207,
+          "InstName" : "issue_enabled.neorv32_cpu_decompressor_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_decompressor.vhd",
+          "ModuleLine" : 22,
+          "ModuleName" : "neorv32_cpu_decompressor"
+         }
+        ]
+       },
+       {
+        "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu.vhd",
+        "InstLine" : 250,
+        "InstName" : "neorv32_cpu_control_inst",
+        "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_control.vhd",
+        "ModuleLine" : 18,
+        "ModuleName" : "neorv32_cpu_control"
+       },
+       {
+        "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu.vhd",
+        "InstLine" : 371,
+        "InstName" : "cnts_enabled.neorv32_cpu_counters_inst",
+        "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_counters.vhd",
+        "ModuleLine" : 23,
+        "ModuleName" : "neorv32_cpu_counters",
+        "SubInsts" : [
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_counters.vhd",
+          "InstLine" : 203,
+          "InstName" : "base_enabled.cycle_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_prim.vhd",
+          "ModuleLine" : 355,
+          "ModuleName" : "neorv32_prim_cnt"
+         },
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_counters.vhd",
+          "InstLine" : 221,
+          "InstName" : "base_enabled.instret_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_prim.vhd",
+          "ModuleLine" : 355,
+          "ModuleName" : "neorv32_prim_cnt"
+         }
+        ]
+       },
+       {
+        "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu.vhd",
+        "InstLine" : 400,
+        "InstName" : "neorv32_cpu_regfile_inst",
+        "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_regfile.vhd",
+        "ModuleLine" : 27,
+        "ModuleName" : "neorv32_cpu_regfile"
+       },
+       {
+        "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu.vhd",
+        "InstLine" : 428,
+        "InstName" : "neorv32_cpu_alu_inst",
+        "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_alu.vhd",
+        "ModuleLine" : 18,
+        "ModuleName" : "neorv32_cpu_alu",
+        "SubInsts" : [
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_alu.vhd",
+          "InstLine" : 152,
+          "InstName" : "neorv32_cpu_alu_shifter_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_alu_shifter.vhd",
+          "ModuleLine" : 21,
+          "ModuleName" : "neorv32_cpu_alu_shifter"
+         },
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_alu.vhd",
+          "InstLine" : 173,
+          "InstName" : "neorv32_cpu_alu_muldiv_enabled.neorv32_cpu_alu_muldiv_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_alu_muldiv.vhd",
+          "ModuleLine" : 23,
+          "ModuleName" : "neorv32_cpu_alu_muldiv"
+         }
+        ]
+       },
+       {
+        "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu.vhd",
+        "InstLine" : 474,
+        "InstName" : "neorv32_cpu_lsu_inst",
+        "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_lsu.vhd",
+        "ModuleLine" : 18,
+        "ModuleName" : "neorv32_cpu_lsu"
+       }
+      ]
+     },
+     {
+      "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd",
+      "InstLine" : 697,
+      "InstName" : "core_complex_gen[0].neorv32_core_bus_switch_inst",
+      "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_bus.vhd",
+      "ModuleLine" : 17,
+      "ModuleName" : "neorv32_bus_switch"
+     },
+     {
+      "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd",
+      "InstLine" : 857,
+      "InstName" : "neorv32_bus_gateway_inst",
+      "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_bus.vhd",
+      "ModuleLine" : 264,
+      "ModuleName" : "neorv32_bus_gateway"
+     },
+     {
+      "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd",
+      "InstLine" : 915,
+      "InstName" : "memory_system.neorv32_imem_enabled.neorv32_imem_inst",
+      "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_imem.vhd",
+      "ModuleLine" : 17,
+      "ModuleName" : "neorv32_imem",
+      "SubInsts" : [
+       {
+        "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_imem.vhd",
+        "InstLine" : 83,
+        "InstName" : "imem_rom.imem_rom_inst",
+        "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_imem_rom.vhd",
+        "ModuleLine" : 21,
+        "ModuleName" : "neorv32_imem_rom"
+       }
+      ]
+     },
+     {
+      "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd",
+      "InstLine" : 938,
+      "InstName" : "memory_system.neorv32_dmem_enabled.neorv32_dmem_inst",
+      "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_dmem.vhd",
+      "ModuleLine" : 17,
+      "ModuleName" : "neorv32_dmem",
+      "SubInsts" : [
+       {
+        "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_dmem.vhd",
+        "InstLine" : 64,
+        "InstName" : "dmem_ram_inst",
+        "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_dmem_ram.vhd",
+        "ModuleLine" : 20,
+        "ModuleName" : "neorv32_dmem_ram",
+        "SubInsts" : [
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_dmem_ram.vhd",
+          "InstLine" : 47,
+          "InstName" : "ram_gen[0].ram_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_prim.vhd",
+          "ModuleLine" : 168,
+          "ModuleName" : "neorv32_prim_spram"
+         },
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_dmem_ram.vhd",
+          "InstLine" : 47,
+          "InstName" : "ram_gen[1].ram_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_prim.vhd",
+          "ModuleLine" : 168,
+          "ModuleName" : "neorv32_prim_spram"
+         },
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_dmem_ram.vhd",
+          "InstLine" : 47,
+          "InstName" : "ram_gen[2].ram_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_prim.vhd",
+          "ModuleLine" : 168,
+          "ModuleName" : "neorv32_prim_spram"
+         },
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_dmem_ram.vhd",
+          "InstLine" : 47,
+          "InstName" : "ram_gen[3].ram_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_prim.vhd",
+          "ModuleLine" : 168,
+          "ModuleName" : "neorv32_prim_spram"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd",
+      "InstLine" : 1044,
+      "InstName" : "io_system.neorv32_bus_io_switch_inst",
+      "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_bus.vhd",
+      "ModuleLine" : 523,
+      "ModuleName" : "neorv32_bus_io_switch",
+      "SubInsts" : [
+       {
+        "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_bus.vhd",
+        "InstLine" : 644,
+        "InstName" : "neorv32_bus_reg_inst",
+        "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_bus.vhd",
+        "ModuleLine" : 172,
+        "ModuleName" : "neorv32_bus_reg"
+       }
+      ]
+     },
+     {
+      "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd",
+      "InstLine" : 1141,
+      "InstName" : "io_system.neorv32_cfs_enabled.neorv32_cfs_inst",
+      "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cfs.vhd",
+      "ModuleLine" : 20,
+      "ModuleName" : "neorv32_cfs"
+     },
+     {
+      "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd",
+      "InstLine" : 1198,
+      "InstName" : "io_system.neorv32_gpio_enabled.neorv32_gpio_inst",
+      "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_gpio.vhd",
+      "ModuleLine" : 17,
+      "ModuleName" : "neorv32_gpio"
+     },
+     {
+      "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd",
+      "InstLine" : 1250,
+      "InstName" : "io_system.neorv32_clint_enabled.neorv32_clint_inst",
+      "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_clint.vhd",
+      "ModuleLine" : 21,
+      "ModuleName" : "neorv32_clint",
+      "SubInsts" : [
+       {
+        "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_clint.vhd",
+        "InstLine" : 82,
+        "InstName" : "neorv32_clint_mtime_inst",
+        "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_prim.vhd",
+        "ModuleLine" : 355,
+        "ModuleName" : "neorv32_prim_cnt"
+       },
+       {
+        "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_clint.vhd",
+        "InstLine" : 113,
+        "InstName" : "neorv32_clint_mtimecmp_gen[0].neorv32_clint_mtimecmp_inst",
+        "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_clint.vhd",
+        "ModuleLine" : 208,
+        "ModuleName" : "neorv32_clint_mtimecmp"
+       }
+      ]
+     },
+     {
+      "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd",
+      "InstLine" : 1290,
+      "InstName" : "io_system.neorv32_uart0_enabled.neorv32_uart0_inst",
+      "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_uart.vhd",
+      "ModuleLine" : 24,
+      "ModuleName" : "neorv32_uart",
+      "SubInsts" : [
+       {
+        "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_uart.vhd",
+        "InstLine" : 183,
+        "InstName" : "tx_fifo_inst",
+        "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_prim.vhd",
+        "ModuleLine" : 24,
+        "ModuleName" : "neorv32_prim_fifo"
+       },
+       {
+        "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_uart.vhd",
+        "InstLine" : 212,
+        "InstName" : "rx_fifo_inst",
+        "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_prim.vhd",
+        "ModuleLine" : 24,
+        "ModuleName" : "neorv32_prim_fifo"
+       }
+      ]
+     },
+     {
+      "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd",
+      "InstLine" : 1569,
+      "InstName" : "io_system.neorv32_slink_enabled.neorv32_slink_inst",
+      "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_slink.vhd",
+      "ModuleLine" : 18,
+      "ModuleName" : "neorv32_slink",
+      "SubInsts" : [
+       {
+        "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_slink.vhd",
+        "InstLine" : 152,
+        "InstName" : "rx_fifo_inst",
+        "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_prim.vhd",
+        "ModuleLine" : 24,
+        "ModuleName" : "neorv32_prim_fifo"
+       },
+       {
+        "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_slink.vhd",
+        "InstLine" : 196,
+        "InstName" : "tx_fifo_inst",
+        "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_prim.vhd",
+        "ModuleLine" : 24,
+        "ModuleName" : "neorv32_prim_fifo"
+       }
+      ]
+     },
+     {
+      "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd",
+      "InstLine" : 1635,
+      "InstName" : "io_system.neorv32_sysinfo_inst",
+      "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_sysinfo.vhd",
+      "ModuleLine" : 18,
+      "ModuleName" : "neorv32_sysinfo"
+     }
+    ]
+   },
+   {
+    "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_test_setup_bootloader.vhd",
+    "InstLine" : 147,
+    "InstName" : "my_acc_inst",
+    "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/acc_top.vhd",
+    "ModuleLine" : 7,
+    "ModuleName" : "acc_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/acc_top.vhd",
+      "InstLine" : 49,
+      "InstName" : "input_buffer_inst",
+      "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/input_buffer.vhd",
+      "ModuleLine" : 7,
+      "ModuleName" : "input_buffer",
+      "SubInsts" : [
+       {
+        "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/input_buffer.vhd",
+        "InstLine" : 50,
+        "InstName" : "a_mem_inst",
+        "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/acc_mem_unit.vhd",
+        "ModuleLine" : 7,
+        "ModuleName" : "acc_mem_unit"
+       },
+       {
+        "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/input_buffer.vhd",
+        "InstLine" : 64,
+        "InstName" : "w_mem_inst",
+        "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/acc_mem_unit.vhd",
+        "ModuleLine" : 7,
+        "ModuleName" : "acc_mem_unit"
+       }
+      ]
+     },
+     {
+      "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/acc_top.vhd",
+      "InstLine" : 63,
+      "InstName" : "systolic_inst",
+      "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_engine.vhd",
+      "ModuleLine" : 8,
+      "ModuleName" : "systolic_engine",
+      "SubInsts" : [
+       {
+        "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_engine.vhd",
+        "InstLine" : 41,
+        "InstName" : "array_inst",
+        "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd",
+        "ModuleLine" : 6,
+        "ModuleName" : "systolic_array",
+        "SubInsts" : [
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd",
+          "InstLine" : 87,
+          "InstName" : "gen_pe_row[0].gen_pe_col[0].pe_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_pe.vhd",
+          "ModuleLine" : 6,
+          "ModuleName" : "systolic_pe"
+         },
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd",
+          "InstLine" : 87,
+          "InstName" : "gen_pe_row[0].gen_pe_col[1].pe_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_pe.vhd",
+          "ModuleLine" : 6,
+          "ModuleName" : "systolic_pe"
+         },
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd",
+          "InstLine" : 87,
+          "InstName" : "gen_pe_row[0].gen_pe_col[2].pe_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_pe.vhd",
+          "ModuleLine" : 6,
+          "ModuleName" : "systolic_pe"
+         },
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd",
+          "InstLine" : 87,
+          "InstName" : "gen_pe_row[0].gen_pe_col[3].pe_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_pe.vhd",
+          "ModuleLine" : 6,
+          "ModuleName" : "systolic_pe"
+         },
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd",
+          "InstLine" : 87,
+          "InstName" : "gen_pe_row[1].gen_pe_col[0].pe_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_pe.vhd",
+          "ModuleLine" : 6,
+          "ModuleName" : "systolic_pe"
+         },
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd",
+          "InstLine" : 87,
+          "InstName" : "gen_pe_row[1].gen_pe_col[1].pe_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_pe.vhd",
+          "ModuleLine" : 6,
+          "ModuleName" : "systolic_pe"
+         },
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd",
+          "InstLine" : 87,
+          "InstName" : "gen_pe_row[1].gen_pe_col[2].pe_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_pe.vhd",
+          "ModuleLine" : 6,
+          "ModuleName" : "systolic_pe"
+         },
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd",
+          "InstLine" : 87,
+          "InstName" : "gen_pe_row[1].gen_pe_col[3].pe_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_pe.vhd",
+          "ModuleLine" : 6,
+          "ModuleName" : "systolic_pe"
+         },
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd",
+          "InstLine" : 87,
+          "InstName" : "gen_pe_row[2].gen_pe_col[0].pe_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_pe.vhd",
+          "ModuleLine" : 6,
+          "ModuleName" : "systolic_pe"
+         },
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd",
+          "InstLine" : 87,
+          "InstName" : "gen_pe_row[2].gen_pe_col[1].pe_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_pe.vhd",
+          "ModuleLine" : 6,
+          "ModuleName" : "systolic_pe"
+         },
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd",
+          "InstLine" : 87,
+          "InstName" : "gen_pe_row[2].gen_pe_col[2].pe_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_pe.vhd",
+          "ModuleLine" : 6,
+          "ModuleName" : "systolic_pe"
+         },
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd",
+          "InstLine" : 87,
+          "InstName" : "gen_pe_row[2].gen_pe_col[3].pe_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_pe.vhd",
+          "ModuleLine" : 6,
+          "ModuleName" : "systolic_pe"
+         },
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd",
+          "InstLine" : 87,
+          "InstName" : "gen_pe_row[3].gen_pe_col[0].pe_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_pe.vhd",
+          "ModuleLine" : 6,
+          "ModuleName" : "systolic_pe"
+         },
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd",
+          "InstLine" : 87,
+          "InstName" : "gen_pe_row[3].gen_pe_col[1].pe_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_pe.vhd",
+          "ModuleLine" : 6,
+          "ModuleName" : "systolic_pe"
+         },
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd",
+          "InstLine" : 87,
+          "InstName" : "gen_pe_row[3].gen_pe_col[2].pe_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_pe.vhd",
+          "ModuleLine" : 6,
+          "ModuleName" : "systolic_pe"
+         },
+         {
+          "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd",
+          "InstLine" : 87,
+          "InstName" : "gen_pe_row[3].gen_pe_col[3].pe_inst",
+          "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_pe.vhd",
+          "ModuleLine" : 6,
+          "ModuleName" : "systolic_pe"
+         }
+        ]
+       },
+       {
+        "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_engine.vhd",
+        "InstLine" : 53,
+        "InstName" : "controller_inst",
+        "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_controller.vhd",
+        "ModuleLine" : 6,
+        "ModuleName" : "systolic_controller"
+       }
+      ]
+     },
+     {
+      "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/acc_top.vhd",
+      "InstLine" : 76,
+      "InstName" : "output_buffer_inst",
+      "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/output_buffer.vhd",
+      "ModuleLine" : 7,
+      "ModuleName" : "output_buffer",
+      "SubInsts" : [
+       {
+        "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/output_buffer.vhd",
+        "InstLine" : 70,
+        "InstName" : "even_mem_inst",
+        "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/acc_mem_unit.vhd",
+        "ModuleLine" : 7,
+        "ModuleName" : "acc_mem_unit"
+       },
+       {
+        "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/output_buffer.vhd",
+        "InstLine" : 85,
+        "InstName" : "odd_mem_inst",
+        "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/acc_mem_unit.vhd",
+        "ModuleLine" : 7,
+        "ModuleName" : "acc_mem_unit"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]
