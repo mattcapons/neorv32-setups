@@ -1,7 +1,7 @@
 #!/usr/bin/env gw_sh
 # Must be run on Gowin EDA version 1.9.9 or later (no 1.9.9 betas)
 
-# TODO: implement flag to immediately synthesise using run all (implement 
+# TODO: implement flag to immediately synthesise using run all (implement
 # "batch mode")
 
 # Available flags
@@ -11,7 +11,7 @@
 # --skip-creation skips the creation of the project. Useful inside the Gowin IDE
 #     when you already created a project but haven't imported the NEORV32 files.
 # --force-project overwrites the project file if it already exists
-# --force-import overwrites any NEORV32 files that already exist in your 
+# --force-import overwrites any NEORV32 files that already exist in your
 #     project's src directory. Use with caution.
 # --project-name [NAME] lets you specify a name for the project instead of the
 #     default name of "work".
@@ -55,7 +55,7 @@ set flag_skip_creation false
 set project_name work
 set project_creation_path [pwd]
 
-if {[info exists nrv_skip_creation]} { 
+if {[info exists nrv_skip_creation]} {
   set flag_skip_creation $nrv_skip_creation }
 
 if {[info exists nrv_force_project] && ($nrv_force_project == true)} {
@@ -95,14 +95,14 @@ puts "create_project flags: $flags_project"
 puts "import_files flags: $flags_import"
 
 
-# If you want to customize the values below, the full list is available on 
+# If you want to customize the values below, the full list is available on
 # [Gowin EDA path]/IDE/data/device/device_info.csv
 # column B (2nd)
 set part_number GW1NR-LV9QN88PC6/I5
  # column D (4th)
-set device GW1NR-9C 
+set device GW1NR-9C
 # column F (6th)
-set version C 
+set version C
 # column G (7th)
 set package QFN88P
 
@@ -116,13 +116,34 @@ if {!$flag_skip_creation} {
     {*}$flags_project
 }
 
-# Creating the project creates a new directory in project_path with the 
+# Creating the project creates a new directory in project_path with the
 # project's name and changes into that directory. Let's save it for later.
 # project_dir should be equal to $project_path/project_name
 set project_dir [pwd]
 
 # --- Importing neorv32 library files ---
 source $script_dir/import_neorv32.tcl
+
+# --- Import accelerator RTL ---
+set accelerator_dir <relative path to accelerator/rtl>
+
+set accelerator_files [list \
+    $accelerator_dir/systolic_pkg.vhd \
+    $accelerator_dir/systolic_pe.vhd \
+    $accelerator_dir/systolic_array.vhd \
+    $accelerator_dir/systolic_controller.vhd \
+    $accelerator_dir/systolic_engine.vhd \
+    $accelerator_dir/input_buffer.vhd \
+    $accelerator_dir/output_buffer.vhd \
+    $accelerator_dir/acc_mem_unit.vhd \
+    $accelerator_dir/acc_top.vhd \
+]
+
+foreach accelerator_file $accelerator_files {
+    import_files -file $accelerator_file {*}$flags_import
+    set_file_prop -lib accelerator \
+      $project_dir/src/[file tail $accelerator_file]
+}
 
 # --- Importing bootloader template file and constraint file ---
 import_files \
