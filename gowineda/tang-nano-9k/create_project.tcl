@@ -125,7 +125,7 @@ set project_dir [pwd]
 source $script_dir/import_neorv32.tcl
 
 # --- Import accelerator RTL ---
-set accelerator_dir <relative path to accelerator/rtl>
+set accelerator_dir $script_dir/../../../accelerator/rtl
 
 set accelerator_files [list \
     $accelerator_dir/systolic_pkg.vhd \
