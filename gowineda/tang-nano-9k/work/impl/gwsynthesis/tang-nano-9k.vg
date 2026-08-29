@@ -1,76 +1,77 @@
 //
 //Written by GowinSynthesis
 //Tool Version "V1.9.12.02"
-//Sat Aug 29 14:32:53 2026
+//Sat Aug 29 15:02:02 2026
 
 //Source file index table:
-//file0 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_test_setup_bootloader.vhd"
-//file1 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/acc_mem_unit.vhd"
-//file2 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/acc_top.vhd"
-//file3 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/input_buffer.vhd"
-//file4 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_bootrom.vhd"
-//file5 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_bootrom_image.vhd"
-//file6 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_bootrom_rom.vhd"
-//file7 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_bus.vhd"
-//file8 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cache.vhd"
-//file9 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cache_ram.vhd"
-//file10 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cfs.vhd"
-//file11 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_clint.vhd"
-//file12 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu.vhd"
-//file13 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_alu.vhd"
-//file14 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_alu_bitmanip.vhd"
-//file15 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_alu_cfu.vhd"
-//file16 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_alu_cond.vhd"
-//file17 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_alu_crypto.vhd"
-//file18 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_alu_fpu.vhd"
-//file19 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_alu_muldiv.vhd"
-//file20 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_alu_shifter.vhd"
-//file21 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_control.vhd"
-//file22 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_counters.vhd"
-//file23 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_decompressor.vhd"
-//file24 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_frontend.vhd"
-//file25 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_hwtrig.vhd"
-//file26 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_lsu.vhd"
-//file27 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_pmp.vhd"
-//file28 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_regfile.vhd"
-//file29 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_trace.vhd"
-//file30 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_debug_auth.vhd"
-//file31 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_debug_dm.vhd"
-//file32 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_debug_dtm.vhd"
-//file33 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_dma.vhd"
-//file34 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_dmem.vhd"
-//file35 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_dmem_ram.vhd"
-//file36 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_gpio.vhd"
-//file37 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_gptmr.vhd"
-//file38 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_imem.vhd"
-//file39 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_imem_image.vhd"
-//file40 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_imem_ram.vhd"
-//file41 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_imem_rom.vhd"
-//file42 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_neoled.vhd"
-//file43 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_onewire.vhd"
-//file44 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_package.vhd"
-//file45 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_prim.vhd"
-//file46 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_pwm.vhd"
-//file47 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_sdi.vhd"
-//file48 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_slink.vhd"
-//file49 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_smc.vhd"
-//file50 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_spi.vhd"
-//file51 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_sys.vhd"
-//file52 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_sysinfo.vhd"
-//file53 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd"
-//file54 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_tracer.vhd"
-//file55 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_trng.vhd"
-//file56 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_twd.vhd"
-//file57 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_twi.vhd"
-//file58 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_uart.vhd"
-//file59 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_wdt.vhd"
-//file60 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_xbus.vhd"
-//file61 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/output_buffer.vhd"
-//file62 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd"
-//file63 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_controller.vhd"
-//file64 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_engine.vhd"
-//file65 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_pe.vhd"
-//file66 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_pkg.vhd"
+//file0 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/gowin_rpll/gowin_rpll.v"
+//file1 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_test_setup_bootloader.vhd"
+//file2 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/acc_mem_unit.vhd"
+//file3 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/acc_top.vhd"
+//file4 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/input_buffer.vhd"
+//file5 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_bootrom.vhd"
+//file6 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_bootrom_image.vhd"
+//file7 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_bootrom_rom.vhd"
+//file8 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_bus.vhd"
+//file9 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cache.vhd"
+//file10 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cache_ram.vhd"
+//file11 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cfs.vhd"
+//file12 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_clint.vhd"
+//file13 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu.vhd"
+//file14 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_alu.vhd"
+//file15 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_alu_bitmanip.vhd"
+//file16 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_alu_cfu.vhd"
+//file17 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_alu_cond.vhd"
+//file18 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_alu_crypto.vhd"
+//file19 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_alu_fpu.vhd"
+//file20 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_alu_muldiv.vhd"
+//file21 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_alu_shifter.vhd"
+//file22 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_control.vhd"
+//file23 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_counters.vhd"
+//file24 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_decompressor.vhd"
+//file25 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_frontend.vhd"
+//file26 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_hwtrig.vhd"
+//file27 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_lsu.vhd"
+//file28 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_pmp.vhd"
+//file29 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_regfile.vhd"
+//file30 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_cpu_trace.vhd"
+//file31 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_debug_auth.vhd"
+//file32 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_debug_dm.vhd"
+//file33 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_debug_dtm.vhd"
+//file34 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_dma.vhd"
+//file35 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_dmem.vhd"
+//file36 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_dmem_ram.vhd"
+//file37 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_gpio.vhd"
+//file38 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_gptmr.vhd"
+//file39 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_imem.vhd"
+//file40 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_imem_image.vhd"
+//file41 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_imem_ram.vhd"
+//file42 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_imem_rom.vhd"
+//file43 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_neoled.vhd"
+//file44 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_onewire.vhd"
+//file45 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_package.vhd"
+//file46 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_prim.vhd"
+//file47 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_pwm.vhd"
+//file48 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_sdi.vhd"
+//file49 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_slink.vhd"
+//file50 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_smc.vhd"
+//file51 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_spi.vhd"
+//file52 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_sys.vhd"
+//file53 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_sysinfo.vhd"
+//file54 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_top.vhd"
+//file55 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_tracer.vhd"
+//file56 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_trng.vhd"
+//file57 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_twd.vhd"
+//file58 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_twi.vhd"
+//file59 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_uart.vhd"
+//file60 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_wdt.vhd"
+//file61 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_xbus.vhd"
+//file62 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/output_buffer.vhd"
+//file63 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_array.vhd"
+//file64 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_controller.vhd"
+//file65 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_engine.vhd"
+//file66 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_pe.vhd"
+//file67 "\/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/systolic_pkg.vhd"
 `timescale 100 ps/100 ps
 module neorv32_sys_reset (
   clk_i_d,
@@ -45153,12 +45154,12 @@ defparam n208_s2.INIT=16'h0200;
     .CE(n8_9),
     .CLEAR(n4_6) 
 );
-  DFFPE \sysinfo[0]_21_s0  (
+  DFFCE \sysinfo[0]_21_s0  (
     .Q(\sysinfo[0] [21]),
     .D(\iodev_req[2].data [21]),
     .CLK(clk_i_d),
     .CE(n8_9),
-    .PRESET(n4_6) 
+    .CLEAR(n4_6) 
 );
   DFFPE \sysinfo[0]_20_s0  (
     .Q(\sysinfo[0] [20]),
@@ -45181,26 +45182,26 @@ defparam n208_s2.INIT=16'h0200;
     .CE(n8_9),
     .CLEAR(n4_6) 
 );
-  DFFCE \sysinfo[0]_17_s0  (
+  DFFPE \sysinfo[0]_17_s0  (
     .Q(\sysinfo[0] [17]),
     .D(\iodev_req[2].data [17]),
     .CLK(clk_i_d),
     .CE(n8_9),
-    .CLEAR(n4_6) 
+    .PRESET(n4_6) 
 );
-  DFFPE \sysinfo[0]_16_s0  (
+  DFFCE \sysinfo[0]_16_s0  (
     .Q(\sysinfo[0] [16]),
     .D(\iodev_req[2].data [16]),
     .CLK(clk_i_d),
     .CE(n8_9),
-    .PRESET(n4_6) 
+    .CLEAR(n4_6) 
 );
-  DFFCE \sysinfo[0]_15_s0  (
+  DFFPE \sysinfo[0]_15_s0  (
     .Q(\sysinfo[0] [15]),
     .D(\iodev_req[2].data [15]),
     .CLK(clk_i_d),
     .CE(n8_9),
-    .CLEAR(n4_6) 
+    .PRESET(n4_6) 
 );
   DFFCE \sysinfo[0]_14_s0  (
     .Q(\sysinfo[0] [14]),
@@ -45230,12 +45231,12 @@ defparam n208_s2.INIT=16'h0200;
     .CE(n8_9),
     .PRESET(n4_6) 
 );
-  DFFPE \sysinfo[0]_10_s0  (
+  DFFCE \sysinfo[0]_10_s0  (
     .Q(\sysinfo[0] [10]),
     .D(\iodev_req[2].data [10]),
     .CLK(clk_i_d),
     .CE(n8_9),
-    .PRESET(n4_6) 
+    .CLEAR(n4_6) 
 );
   DFFCE \sysinfo[0]_9_s0  (
     .Q(\sysinfo[0] [9]),
@@ -45244,19 +45245,19 @@ defparam n208_s2.INIT=16'h0200;
     .CE(n8_9),
     .CLEAR(n4_6) 
 );
-  DFFPE \sysinfo[0]_8_s0  (
+  DFFCE \sysinfo[0]_8_s0  (
     .Q(\sysinfo[0] [8]),
     .D(\iodev_req[2].data [8]),
     .CLK(clk_i_d),
     .CE(n8_9),
-    .PRESET(n4_6) 
+    .CLEAR(n4_6) 
 );
-  DFFCE \sysinfo[0]_7_s0  (
+  DFFPE \sysinfo[0]_7_s0  (
     .Q(\sysinfo[0] [7]),
     .D(\iodev_req[2].data [7]),
     .CLK(clk_i_d),
     .CE(n8_9),
-    .CLEAR(n4_6) 
+    .PRESET(n4_6) 
 );
   DFFCE \sysinfo[0]_6_s0  (
     .Q(\sysinfo[0] [6]),

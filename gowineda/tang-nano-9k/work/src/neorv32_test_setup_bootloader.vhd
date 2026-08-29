@@ -21,7 +21,7 @@ use accelerator.systolic_pkg.all;
 entity neorv32_test_setup_bootloader is
   generic (
     -- adapt these for your setup --
-    CLOCK_FREQUENCY : natural := 20000000;  -- clock frequency of clk_i in Hz
+    CLOCK_FREQUENCY : natural := 18000000;  -- clock frequency of clk_i in Hz
     IMEM_SIZE       : natural := 8*1024;   -- size of processor-internal instruction memory in bytes
     DMEM_SIZE       : natural := 16*1024    -- size of processor-internal data memory in bytes
   );

@@ -2,6 +2,10 @@
  "Device" : "GW1NR-9C",
  "Files" : [
   {
+   "Path" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/gowin_rpll/gowin_rpll.v",
+   "Type" : "verilog"
+  },
+  {
    "Library" : "accelerator",
    "Path" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/acc_mem_unit.vhd",
    "Type" : "vhdl"

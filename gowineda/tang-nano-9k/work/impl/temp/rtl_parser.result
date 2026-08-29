@@ -1,5 +1,13 @@
 [
  {
+  "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/gowin_rpll/gowin_rpll.v",
+  "InstLine" : 11,
+  "InstName" : "Gowin_rPLL",
+  "ModuleFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/gowin_rpll/gowin_rpll.v",
+  "ModuleLine" : 11,
+  "ModuleName" : "Gowin_rPLL"
+ },
+ {
   "InstFile" : "/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/neorv32_test_setup_bootloader.vhd",
   "InstLine" : 21,
   "InstName" : "neorv32_test_setup_bootloader",

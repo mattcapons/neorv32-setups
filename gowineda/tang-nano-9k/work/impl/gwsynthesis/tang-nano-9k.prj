@@ -4,6 +4,7 @@
     <Version>beta</Version>
     <Device id="GW1NR-9C" package="QFN88P" speed="6" partNumber="GW1NR-LV9QN88PC6/I5"/>
     <FileList>
+        <File path="/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/gowin_rpll/gowin_rpll.v" type="verilog"/>
         <File library="accelerator" path="/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/acc_mem_unit.vhd" type="vhdl"/>
         <File library="accelerator" path="/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/acc_top.vhd" type="vhdl"/>
         <File library="accelerator" path="/home/matteo/Projects/AI-accelerator-for-neorv32/neorv32-setups/gowineda/tang-nano-9k/work/src/input_buffer.vhd" type="vhdl"/>
